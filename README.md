@@ -5,7 +5,8 @@
 - 🌱 I’m currently learning html,javascript, java, python.
 - 💞️ I’m looking to collaborate on Machine learning  related projects
 - 📫 My email id is shashwat1322001@gmail.com
-[![Shashwat's GitHub stats](https://github-readme-stats.vercel.app/api?username=Shashwat-srivastav)](https://github.com/anuraghazra/github-readme-stats)
+
+
 <!---
 Shashwat-srivastav/Shashwat-srivastav is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
