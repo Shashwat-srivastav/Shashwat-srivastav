@@ -2,8 +2,8 @@
 
 - 👋 Hi, I’m @Shashwat-srivastav
 - 👀 I’m interested in open source and like to build stuffs.
-- 🌱 I’m currently learning html,javascript, java,c.
-- 💞️ I’m looking to collaborate on java  related projects
+- 🌱 I’m currently learning html,javascript, java, python.
+- 💞️ I’m looking to collaborate on Machine learning  related projects
 - 📫 My email id is shashwat1322001@gmail.com
 
 <!---
