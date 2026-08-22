@@ -4,17 +4,17 @@
 
 **Systematic Trading · Scientific ML · Peer-Reviewed Research**
 
-21 accepted alphas → Top 10 Global (1,171 participants) → IEEE ICIP 2026 → ITU Innovation Award
+21 accepted alphas → Top 10 Global (1,171 participants) → IEEE ICIP 2026 → ITU Innovation Award → 2 Funded International Invitations
 
 ---
 
 ## Evidence Grid
 
-| 🏆 TOP 10 GLOBAL | 📈 21 ALPHAS | 📊 2.5 PEAK SHARPE | 📄 IEEE ICIP | 🛰️ ITU AWARD |
-|:---:|:---:|:---:|:---:|:---:|
-| Avenir × HKU | WorldQuant BRAIN | Live Trading | Workshops 2026 | Innovation Award |
-| 1,171 participants | Gold tier | +4.3% net return | Accepted paper | 6 of 27 finalists |
-| 200+ universities | | | | |
+| 🏆 TOP 10 GLOBAL | 📈 21 ALPHAS | 📊 2.5 PEAK SHARPE | 📄 IEEE ICIP | 🛰️ ITU AWARD | ✈️ 2 INVITATIONS |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Avenir × HKU | WorldQuant BRAIN | Live Trading | Workshops 2026 | Innovation Award | Fully Funded |
+| 1,171 participants | Gold tier | +4.3% net return | Accepted paper | 6 of 27 finalists | HKU + Geneva |
+| 200+ universities | | | | | |
 
 **Verification:** [Avenir × HKU](https://www.hkubs.hku.hk/media/school-news/web3-competition-brought-by-hku-business-school-and-avenirgroup/) · [ITU Results](https://aiforgood.itu.int/from-orbit-to-impact-celebrating-the-winners-of-the-ai-and-space-computing-challenge/) · [Portfolio](https://shashwat-srivastav.github.io/portfolio/)
 
@@ -44,6 +44,25 @@ It's:
 
 ---
 
+## International Recognition
+
+### ✈️ Fully Funded International Invitations
+
+Two official invitations, two countries, both fully funded.
+
+| Invitation | Host | Details | Funding |
+|---:|---|---|---|
+| **Avenir × HKU Global Finals** | HKU Business School + Standard Chartered | Grand Final at Rayson Huang Theatre, HKU · 29 Nov 2025 | Round-trip airfare + hotel |
+| **ITU AI & Space Computing Awards** | ITU (UN agency) + Zhejiang Lab | AI for Good Global Summit, Geneva · 7–10 July 2026 | Official invitation to awards ceremony |
+
+**Why this matters:**
+
+These invitations were **earned through results**, not applications. Avenir invited the Top 10 finalists from 1,171 participants. ITU invited only the 41 awarded teams from 258 entrants across 36 countries.
+
+> *Visa officers don't sign these documents. Result-based invitations do.*
+
+---
+
 ## Selected Work
 
 ### 📈 Systematic Trading — Avenir × HKU Web3.0 Quant Trading Challenge 2025
@@ -53,6 +72,8 @@ It's:
 **Sole quant contributor.** Built and traded the strategy that placed Top 10 globally in Asia's first institution-grade digital asset quantitative trading competition.
 
 **Hosts:** HKU Business School · Avenir Group · HKU Web3 Research Centre · Standard Chartered Foundation FinTech Academy
+
+**Invitation:** Co-signed by HKU Business School and Standard Chartered. Fully funded: round-trip airfare and hotel accommodation.
 
 **Competition structure:**
 - Six months, three rounds
@@ -134,6 +155,8 @@ Systematic alpha construction and factor research across multiple market regimes
 
 **Named among six Track 2 Innovation Award recipients** in ITU's official results announcement, 7 July 2026.
 
+**Invitation:** Official international invitation to the awards ceremony at the AI for Good Global Summit, Geneva, 7–10 July 2026. Issued to the 41 awarded teams, not all 106 finalists.
+
 **Field:**
 
 | Metric | Value |
@@ -143,6 +166,10 @@ Systematic alpha construction and factor research across multiple market regimes
 | Awarded teams | 41 teams, 12 countries |
 | Track 2 Awarded | 9 of 27 finalists |
 | Innovation Award recipients | **6 of 27** |
+
+**Judging:** Panel of 12–15 international experts. Innovation Award granted on originality and merit of the submitted proposal alone.
+
+**Co-hosts:** ITU (UN agency) · Zhejiang Lab · CBAS · CAICT
 
 **System Architecture:**
 
