@@ -226,7 +226,3 @@ Mostly Python. Occasionally Docker gets involved. Nobody is happy.
 **If you have a good problem, a questionable hypothesis, or a dataset that looks innocent but clearly isn't — I'm interested.**
 
 ---
-
-6. **Include screenshots** of competition standings if possible
-
-These additions would push the score to **85-88/100**.
