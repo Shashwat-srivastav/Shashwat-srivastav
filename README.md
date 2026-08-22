@@ -2,33 +2,37 @@
 
 ### Quantitative ML Researcher
 
-**Systematic Trading · Scientific ML · Robust Validation**
+**Systematic Trading · Scientific ML · Peer-Reviewed Research**
 
-Engineer → Published Researcher → Quant Competition Top 10
-
----
-
-## Evidence
-
-| 🏆 TOP 10 GLOBAL | 📈 21 ACCEPTED ALPHAS | 📊 2.5 PEAK SHARPE | 📄 IEEE ICIP 2026 |
-|:---:|:---:|:---:|:---:|
-| Avenir × HKU | WorldQuant BRAIN | Live Trading | Accepted Paper |
-| 1,171 participants | Peak Sharpe 2.10 | +4.3% net return | Peer-reviewed |
-| 200+ universities | | | |
+21 accepted alphas → Top 10 Global (1,171 participants) → IEEE ICIP 2026 → ITU Innovation Award
 
 ---
 
-## What I Do
+## Evidence Grid
 
-I research **systematic strategies** and **scientific ML models** where the data is noisy, the environment shifts, and the model is probably wrong about something.
+| 🏆 TOP 10 GLOBAL | 📈 21 ALPHAS | 📊 2.5 PEAK SHARPE | 📄 IEEE ICIP | 🛰️ ITU AWARD |
+|:---:|:---:|:---:|:---:|:---:|
+| Avenir × HKU | WorldQuant BRAIN | Live Trading | Workshops 2026 | Innovation Award |
+| 1,171 participants | Gold tier | +4.3% net return | Accepted paper | 6 of 27 finalists |
+| 200+ universities | | | | |
 
-**Current focus:**
+**Verification:** [Avenir × HKU](https://www.hkubs.hku.hk/media/school-news/web3-competition-brought-by-hku-business-school-and-avenirgroup/) · [ITU Results](https://aiforgood.itu.int/from-orbit-to-impact-celebrating-the-winners-of-the-ai-and-space-computing-challenge/) · [Portfolio](https://shashwat-srivastav.github.io/portfolio/)
 
-- Alpha research & signal construction
-- Financial time-series modelling
-- Regime-aware strategies
-- Physics-informed ML
-- Remote sensing
+---
+
+## What I Research
+
+I build models for **decisions where the data is noisy, the environment shifts, and the model is probably wrong about something.**
+
+```
+Alpha research ──────► Systematic trading
+       │
+       ▼
+Physics-informed ML ──► Scientific computing
+       │
+       ▼
+Robust validation ────► Out-of-sample evidence
+```
 
 The question isn't:
 
@@ -36,43 +40,82 @@ The question isn't:
 
 It's:
 
-> *"Why did it work, when does it stop working, and what breaks when I try?"*
+> *"Why did it work, when does it stop working, and what breaks when I try hard to break it?"*
 
 ---
 
 ## Selected Work
 
-### 📈 Systematic Trading Strategy — Avenir × HKU
+### 📈 Systematic Trading — Avenir × HKU Web3.0 Quant Trading Challenge 2025
 
-**Top 10 Global · 1,171 participants · Live Trading**
+**Top 10 Global · Final Round · 1,171 participants · 200+ universities · 15 countries**
 
-Cross-sectional momentum strategy with regime filtering and transaction cost modelling.
+**Sole quant contributor.** Built and traded the strategy that placed Top 10 globally in Asia's first institution-grade digital asset quantitative trading competition.
 
-**Methodology:**
-```
-✓ Walk-forward validation      ✓ Out-of-sample testing
-✓ Transaction cost modelling   ✓ Drawdown analysis
-✓ Risk management              ✓ Failure case review
-```
+**Hosts:** HKU Business School · Avenir Group · HKU Web3 Research Centre · Standard Chartered Foundation FinTech Academy
+
+**Competition structure:**
+- Six months, three rounds
+- Round 1: Kaggle ranking challenge (weighted Spearman correlation)
+- Final Round: Live trading, Grand Final at HKU
 
 **Results:**
 
 | Metric | Value |
 |---|---|
-| Peak Sharpe | 2.5 |
-| Net Return | +4.3% |
-| Rank | Top 10 / 1,171 |
-| Phase | Live trading |
+| Net Return | **+4.3%** |
+| Peak Sharpe | **2.5** |
+| P&L | **+540 USDT** |
+| Rank | **Top 10 / 1,171** |
+| Prize Pool | US$50,000 |
 
-[Repository](https://github.com/shashwat1322) · [Results](https://github.com/shashwat1322)
+**Strategy Lifecycle:**
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    STRATEGY LIFECYCLE                          │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  SIGNAL GENERATION        VALIDATION            EXECUTION      │
+│  ┌──────────┐            ┌──────────┐          ┌──────────┐   │
+│  │ Momentum │──┐         │ Walk-    │          │ Position │   │
+│  │ Mean Rev │  │         │ Forward  │          │ Sizing   │   │
+│  │ Volatility│ ├────────►│ OOS      │─────────►│ Costs    │   │
+│  │ Fundamental│ │         │ Regime   │          │ Risk     │   │
+│  │ Technical │──┘         │ Decay    │          │ Limits   │   │
+│  └──────────┘            └──────────┘          └──────────┘   │
+│                                                                 │
+│  Methodology: Walk-forward ✓ · OOS ✓ · Costs ✓ · Drawdown ✓   │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Verification:** [HKU Business School](https://www.hkubs.hku.hk/media/school-news/web3-competition-brought-by-hku-business-school-and-avenirgroup/) · [Kaggle](https://www.kaggle.com/competitions/avenir-hku-web) · [Finalists](https://phemex.com/news/article/finalists-announced-for-avenirhkuweb30-quant-trading-challenge-38180)
 
 ---
 
 ### 🧮 Alpha Research — WorldQuant BRAIN
 
-**21 Accepted Alphas · Peak Sharpe 2.10**
+**21 Accepted Alphas · Gold Tier · Peak Sharpe 2.10**
 
 Systematic alpha construction and factor research across multiple market regimes.
+
+**Alpha Research Pipeline:**
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│                    ALPHA PIPELINE                            │
+│                                                              │
+│  HYPOTHESIS ──► FORMULATION ──► TESTING ──► ACCEPTANCE      │
+│                                                              │
+│  "Momentum      Signal         In-sample      Sharpe ≥ 1.5  │
+│   persists in    expression     OOS            Turnover OK  │
+│   energy                        Decay          Correlation  │
+│   sector"                       Capacity       low          │
+│                                                              │
+│  21 survived this process. Hundreds didn't.                 │
+│  The graveyard is the methodology.                          │
+└──────────────────────────────────────────────────────────────┘
+```
 
 **Signal types explored:**
 - Cross-sectional momentum
@@ -80,15 +123,6 @@ Systematic alpha construction and factor research across multiple market regimes
 - Volatility-based signals
 - Fundamental factors
 - Technical indicators
-
-**Validation protocol:**
-```
-✓ Out-of-sample testing        ✓ Regime analysis
-✓ Turnover constraints         ✓ Correlation analysis
-✓ Capacity estimation          ✓ Decay analysis
-```
-
-[Repository](https://github.com/shashwat1322) · [BRAIN Profile](https://platform.worldquantbrain.com)
 
 ---
 
@@ -98,30 +132,49 @@ Systematic alpha construction and factor research across multiple market regimes
 
 **Track 2 · Space Intelligence for Water Quality**
 
-Remote sensing + machine learning + domain constraints for water-quality estimation from Sentinel-2 imagery.
+**Named among six Track 2 Innovation Award recipients** in ITU's official results announcement, 7 July 2026.
 
-**Architecture:**
+**Field:**
+
+| Metric | Value |
+|---|---|
+| Entrant teams | 258 teams, 36 countries |
+| Final round | 106 teams, 13 countries |
+| Awarded teams | 41 teams, 12 countries |
+| Track 2 Awarded | 9 of 27 finalists |
+| Innovation Award recipients | **6 of 27** |
+
+**System Architecture:**
+
 ```
-Satellite Imagery (Sentinel-2)
-           │
-           ▼
-Domain Constraints (Physics-based features)
-           │
-           ▼
-ML Model (Physics-informed)
-           │
-           ▼
-Water Quality Estimation
+┌─────────────────────────────────────────────────────────────────┐
+│                    S2WISH ARCHITECTURE                         │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  SENTINEL-2          DOMAIN              ML MODEL              │
+│  IMAGERY             CONSTRAINTS         (Physics-Informed)    │
+│  ┌─────────┐        ┌─────────┐         ┌─────────┐           │
+│  │ Bands   │        │ Water   │         │ Spectral│           │
+│  │ B2-B8A  │───────►│ Optics  │────────►│ Features│           │
+│  │ Angles  │        │ CDOM    │         │ + Domain│──┐        │
+│  │ Metadata│        │ Physics │         │ Priors  │  │        │
+│  └─────────┘        └─────────┘         └─────────┘  │        │
+│                                                        ▼        │
+│                                              ┌──────────────┐  │
+│                                              │  PREDICTIONS │  │
+│                                              │  Turbidity   │  │
+│                                              │  Suspended   │  │
+│                                              │  Sediment    │  │
+│                                              │  CDOM        │  │
+│                                              └──────────────┘  │
+│                                                                 │
+│  Methodology: Domain-informed ✓ · Baselines ✓ · Ablations ✓   │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-**Methodology:**
-```
-✓ Domain-informed features     ✓ Baseline comparison
-✓ Ablation studies             ✓ Error analysis
-✓ Cross-validation             ✓ Reproducible code
-```
+**Research output:** Manuscript under review at **ITU Journal on Future and Evolving Technologies** (Manuscript ID ITUJ-2026-0045).
 
-[Repository](https://github.com/shashwat1322) · [Challenge](https://www.itu.int)
+**Verification:** [ITU Results](https://aiforgood.itu.int/from-orbit-to-impact-celebrating-the-winners-of-the-ai-and-space-computing-challenge/) · [Challenge Rules](https://aiforgood.itu.int/ai-and-space-computing-challenge/) · [Entrant Pool](https://www.ecns.cn/cns-wire/2026-07-10/detail-ihfhemcv3618490.shtml)
 
 ---
 
@@ -129,28 +182,43 @@ Water Quality Estimation
 
 **Physics-Constrained Dual-Architecture Ensemble**
 
-Radio-frequency interference detection in Sentinel-1 SAR quicklooks using ML with domain constraints.
+**Accepted paper.** Gaur & Srivastava (second author).
 
-**Why this matters:**
-Standard image classification treats satellite data as arbitrary images. This fails when the physics of the sensor matters.
+**Why this matters:** Standard image classification treats satellite data as arbitrary images. This fails when the physics of the sensor matters.
 
-**Approach:**
-- Dual-architecture ensemble
-- Physics-based constraints
-- Domain-informed preprocessing
-- Ablation studies for each component
+**Model Architecture:**
 
-**Publication:**
-📄 **Accepted — IEEE ICIP Workshops 2026**
-
-**Methodology:**
 ```
-✓ Baseline models               ✓ Ablation studies
-✓ Physics constraints           ✓ Error analysis
-✓ Cross-validation              ✓ Reproducible code
+┌─────────────────────────────────────────────────────────────────┐
+│              DUAL-ARCHITECTURE ENSEMBLE                        │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  SAR QUICKLOOK                                                  │
+│       │                                                         │
+│       ├──────────────┬──────────────────────┐                   │
+│       ▼              ▼                      ▼                   │
+│  ┌─────────┐   ┌───────────┐        ┌──────────────┐           │
+│  │ CNN     │   │ Physics   │        │ Transformer  │           │
+│  │ Branch  │   │ Features  │        │ Branch       │           │
+│  │         │   │ (Domain)  │        │              │           │
+│  └────┬────┘   └─────┬─────┘        └──────┬───────┘           │
+│       │              │                     │                   │
+│       └──────────────┼─────────────────────┘                   │
+│                      ▼                                         │
+│               ┌─────────────┐                                  │
+│               │  ENSEMBLE   │                                  │
+│               │  FUSION     │                                  │
+│               └──────┬──────┘                                  │
+│                      ▼                                         │
+│               ┌─────────────┐                                  │
+│               │ RFI / CLEAN │                                  │
+│               └─────────────┘                                  │
+│                                                                 │
+│  Ablations ✓ · Baselines ✓ · Physics constraints ✓            │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
-[Repository](https://github.com/shashwat1322) · [Paper](https://ieeexplore.ieee.org)
+**Status:** Copyright transferred; to appear.
 
 ---
 
@@ -160,15 +228,27 @@ Standard image classification treats satellite data as arbitrary images. This fa
 
 Content-level disinformation research dataset with threat-vector annotations.
 
-**Goal:** Make disinformation research data useful for actual research, not demos.
+**Status:** In progress. Target: ICWSM deadline 15 January 2027.
 
-**Dataset features:**
-- Multilingual (Hindi/Urdu/English)
-- DISARM TTP annotations
-- Content-level labels
-- Reproducible preprocessing
+The goal isn't another:
 
-[Repository](https://github.com/shashwat1322) · [Dataset](https://github.com/shashwat1322)
+> *"AI detects fake news"*
+
+demo.
+
+The goal is to make the underlying **data and threat representation** useful for actual research.
+
+---
+
+### 🧮 RealPDE — Scientific ML for Partial Differential Equations
+
+Exploring machine-learning approaches to scientific computing and PDE problems.
+
+```
+Can a learned approximation respect the structure of the problem it is trying to solve?
+```
+
+**Status:** Live competition.
 
 ---
 
@@ -186,26 +266,39 @@ Every project I publish includes:
 
 ---
 
+## Things I Don't Trust Easily
+
+- Suspiciously beautiful backtests
+- Models without serious baselines
+- "SOTA" without checking the comparison
+- Metrics nobody can explain
+- Results that disappear when the data split changes
+- My own hypothesis before the experiment attacks it
+
+> *If I can't define how a claim could fail, I probably haven't defined the claim properly.*
+
+---
+
 ## Trajectory
 
 ```
-2023: ML Engineering (Backend, Cloud, Python)
+2023: ML Engineering (MLH Fellowship, OWASP, Backend)
        │
        ▼
-2024: Scientific ML (Remote Sensing, Physics-informed ML)
+2024: Scientific ML (RIC Presentation, S2WISH begins)
        │
        ▼
-2025: Quantitative Research (Alpha Research, Systematic Trading)
+2025: Quantitative Research (WorldQuant BRAIN, Avenir × HKU)
        │
        ▼
-2026: Systematic ML (Current Focus)
+2026: Peer-Reviewed Research (IEEE ICIP, ITU Award, J-FET under review)
 ```
 
 The throughline: **building models that survive contact with reality.**
 
 ---
 
-## Stack
+## Technical Stack
 
 ```
 Python · NumPy · Pandas · SciPy · PyTorch · scikit-learn
@@ -217,12 +310,26 @@ Mostly Python. Occasionally Docker gets involved. Nobody is happy.
 
 ---
 
+## Additional Evidence
+
+| Category | Result |
+|---|---|
+| HackVSIT 5.0 | 1st Runner-Up, 150+ teams (RouteCraft) |
+| MLH Hacky New Year | Most Innovative Hack (ColabWorks) |
+| Meta Hacker Cup 2025 | Global rank 4,042 / 20,000+ |
+| MLH Fellowship | Advanced to project-matching stage |
+| RIC 2024, IIT Guwahati | Oral presentation (Dyslexia subtype classification) |
+
+---
+
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/shashwat-srivastava-08394a225/) · [X](https://x.com/shashwat1322) · [Email](mailto:shashwat1322001@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/shashwat-srivastava-08394a225/) · [X](https://x.com/shashwat1322) · [Email](mailto:shashwat1322001@gmail.com) · [Portfolio](https://shashwat-srivastav.github.io/portfolio/)
 
 ---
 
 **If you have a good problem, a questionable hypothesis, or a dataset that looks innocent but clearly isn't — I'm interested.**
+
+*Currently reading: market microstructure papers, satellite physics documentation, and my own backtest results with increasing suspicion.*
 
 ---
