@@ -1,136 +1,243 @@
+
 # Shashwat Srivastava
 
-**Quantitative ML · Systematic Research · Scientific ML**
+### Quantitative ML · Systematic Research · Scientific ML
 
-I build and evaluate machine-learning systems for **decision-making under uncertainty**, with a current focus on **systematic trading, quantitative research, and scientific machine learning**.
+> I build models, test hypotheses, and occasionally argue with backtests.
 
-My work spans the full research loop: **problem formulation → hypothesis → implementation → validation → failure analysis**.
+I'm interested in **how to make decisions when the data is noisy, the environment changes, and the model is probably wrong about something**.
 
-## Selected Evidence
+Currently, most of that curiosity goes into **systematic trading, quantitative research, and scientific ML**.
 
-* **Top 10 Global — Avenir × HKU Web3.0 Quant Trading Challenge 2025**
-  Top 10 among **1,171 participants from 200+ universities across 15 countries**. Live-traded result: **+4.3% net return, +540 USDT, peak Sharpe 2.5**.
+I like models.
 
-* **WorldQuant BRAIN — Gold Tier**
-  **21 accepted alphas**, with peak Sharpe **2.10**.
-
-* **IEEE ICIP Workshops 2026 — Accepted Paper**
-  *Physics-Constrained Dual-Architecture Ensemble for RFI Detection in Sentinel-1 SAR Quicklooks.*
-
-* **ITU AI & Space Computing Challenge 2026 — Innovation Award**
-  Track 2: **Space Intelligence for Water Quality**, for **S2WISH**, a Sentinel-2 water-quality intelligence system.
-
-## Current Research
-
-### Systematic & Quantitative Research
-
-I investigate systematic decision-making under changing market conditions, with interests in:
-
-* Alpha research and signal construction
-* Financial time-series modelling
-* Regime-aware modelling
-* Portfolio and risk methodology
-* Robust backtesting and out-of-sample evaluation
-* Machine learning for quantitative research
-
-### Scientific ML
-
-I work on ML problems where domain constraints matter, including:
-
-* Physics-informed learning
-* Remote sensing
-* Scientific image analysis
-* Environmental intelligence
-* Scientific machine learning
-
-## Selected Research
-
-### S2WISH
-
-**Physics-informed water-quality intelligence from Sentinel-2**
-
-Research project combining satellite imagery, domain constraints, and machine learning for water-quality analysis.
-
-**Recognition:** ITU AI & Space Computing Challenge 2026 — Track 2 Innovation Award.
-
-### Sentinel-1 RFI Detection
-
-**Physics-Constrained Dual-Architecture Ensemble**
-
-Research on radio-frequency interference detection in Sentinel-1 SAR quicklooks using physics-constrained machine learning.
-
-**Publication:** IEEE ICIP Workshops 2026 — accepted.
-
-### RealPDE
-
-**Scientific machine learning for PDEs**
-
-Exploring machine-learning approaches to scientific computing and partial differential equations through a live research competition.
-
-### NarrativeX
-
-**Multilingual content-level disinformation dataset**
-
-Building a DISARM-TTP-annotated dataset spanning **Hindi, Urdu, and English**, with the goal of enabling more rigorous research into multilingual disinformation.
-
-## Research Principles
-
-I care about:
-
-* Explicit hypotheses rather than post-hoc stories
-* Out-of-sample evaluation rather than in-sample optimization
-* Reproducibility rather than one-off results
-* Robustness rather than a single attractive metric
-* Failure analysis rather than hiding negative results
-* Measurable claims rather than unsupported conclusions
-
-> **A claim without a meaningful evaluation criterion is a hypothesis, not a validated result.**
-
-## Quantitative Research
-
-My quantitative work combines systematic signal research, empirical validation, and competitive trading.
-
-**Selected results**
-
-| Work                                 | Result                                    |
-| ------------------------------------ | ----------------------------------------- |
-| Avenir × HKU Quant Trading Challenge | **Top 10 Global**                         |
-| Avenir × HKU live trading            | **+4.3% net return · 2.5 peak Sharpe**    |
-| WorldQuant BRAIN                     | **21 accepted alphas · 2.10 peak Sharpe** |
-
-The objective is not simply to maximize a backtest metric, but to understand **why a signal works, when it fails, and whether the result survives reasonable changes in assumptions**.
-
-## Engineering
-
-I build research systems rather than isolated notebooks, with experience across:
-
-**Python · PyTorch · NumPy · Pandas · SciPy · scikit-learn · TensorFlow**
-
-**FastAPI · Flask · PostgreSQL · Redis · Docker · AWS · GCP**
-
-**Matplotlib · Plotly · LaTeX**
-
-The engineering layer matters because a research result is only useful when the experiment can be reproduced, inspected, and extended.
-
-## Open to Collaboration
-
-I'm interested in working with people on:
-
-* Quantitative research and systematic trading
-* ML for finance
-* Scientific machine learning
-* Numerical methods and optimization
-* Reproducible research infrastructure
-* Research projects where assumptions and failure modes matter as much as headline performance
-
-For technical work, I prefer collaboration where **the hypothesis can be challenged and the result can be tested**.
-
-## Contact
-
-**LinkedIn · X · Email**
+I trust **baselines, out-of-sample tests, and failure analysis** more.
 
 ---
 
-### Research status
+## 🧾 Some Evidence
 
-**1 accepted peer-reviewed publication · 1 manuscript under review · 1 research presentation · 21 accepted WorldQuant alphas · 2 major quantitative-finance results · 1 international innovation award**
+| 🏁 **TOP 10 GLOBAL** | 📈 **21 ACCEPTED ALPHAS** | 📊 **2.5 PEAK SHARPE** | 📄 **ACCEPTED PAPER** |
+|:---:|:---:|:---:|:---:|
+| Avenir × HKU | WorldQuant BRAIN | Avenir × HKU | IEEE ICIP Workshops |
+| 1,171 participants | Peak Sharpe 2.10 | +4.3% net return | 2026 |
+| 200+ universities | | Live trading | |
+
+### 🛰️ International Research Recognition
+
+**Innovation Award — ITU AI & Space Computing Challenge 2026**  
+Track 2 · Space Intelligence for Water Quality · **S2WISH**
+
+---
+
+## 🧪 What I'm Investigating
+
+### Quantitative Research
+
+Currently exploring:
+
+- Alpha research and signal construction
+- Financial time-series modelling
+- Regime-aware strategies
+- Risk and portfolio methodology
+- Robust backtesting
+- Machine learning for systematic trading
+- Decision-making under uncertainty
+
+The interesting question isn't:
+
+> **"Did the backtest make money?"**
+
+It's:
+
+> **"Why did it work, when does it stop working, and what happens when I try reasonably hard to break it?"**
+
+### Scientific ML
+
+I also work on problems where:
+
+
+neural_network(data) → magic
+
+
+is not considered a complete methodology.
+
+Current interests:
+
+* Physics-informed ML
+* Remote sensing
+* Scientific image analysis
+* Environmental intelligence
+* Scientific computing
+
+---
+
+## 🔬 Selected Work
+
+### 🛰️ S2WISH
+
+**Physics-informed water-quality intelligence from Sentinel-2**
+
+**Problem**
+Extract useful water-quality information from satellite imagery.
+
+**Approach**
+Remote sensing + machine learning + domain constraints.
+
+**Recognition**
+🏆 **Innovation Award — ITU AI & Space Computing Challenge 2026**
+
+
+Satellite imagery
+       │
+       ▼
+Domain / physical information
+       │
+       ▼
+Machine learning
+       │
+       ▼
+Water / environmental intelligence
+
+
+---
+
+### 📡 Sentinel-1 RFI Detection
+
+**Physics-Constrained Dual-Architecture Ensemble**
+
+Machine learning for **radio-frequency interference detection in Sentinel-1 SAR quicklooks**.
+
+The project combines ML with domain constraints rather than treating the input as an arbitrary image-classification problem.
+
+**Publication:**
+📄 **IEEE ICIP Workshops 2026 — Accepted**
+
+---
+
+### 🧮 RealPDE
+
+**Scientific ML for Partial Differential Equations**
+
+Exploring machine-learning approaches to scientific computing and PDE problems through a research competition.
+
+The question:
+
+> **Can a learned approximation respect the structure of the problem it is trying to solve?**
+
+---
+
+### 📰 NarrativeX
+
+**Multilingual content-level disinformation research**
+
+Building a **DISARM-TTP-annotated Hindi / Urdu / English dataset** for content-level disinformation research.
+
+The goal isn't another:
+
+> "AI detects fake news"
+
+demo.
+
+The goal is to make the underlying data and threat representation useful enough for actual research.
+
+---
+
+## 🧠 Things I Don't Trust Easily
+
+* Suspiciously beautiful backtests.
+* Models without serious baselines.
+* "SOTA" without checking the comparison.
+* Metrics nobody can explain.
+* Results that disappear when the data split changes.
+* My own hypothesis before the experiment has had a chance to attack it.
+
+> **If I can't define how a claim could fail, I probably haven't defined the claim properly.**
+
+---
+
+## 📐 Research Philosophy
+
+| Instead of            | I want                          |
+| --------------------- | ------------------------------- |
+| In-sample performance | Out-of-sample evidence          |
+| One impressive metric | Robustness across tests         |
+| Bigger models         | Better hypotheses               |
+| Post-hoc explanations | Predefined evaluation           |
+| Hidden failures       | Failure analysis                |
+| "It works"            | "Here is why we think it works" |
+| Notebook archaeology  | Reproducible experiments        |
+
+The objective isn't to make every experiment look successful.
+
+It's to make the **conclusion harder to fool yourself with**.
+
+---
+
+## 🛠️ Research Stack
+
+**Quant / ML**
+
+`Python` · `NumPy` · `Pandas` · `SciPy` · `PyTorch` · `scikit-learn` · `TensorFlow`
+
+**Systems**
+
+`Docker` · `FastAPI` · `Flask` · `PostgreSQL` · `Redis` · `AWS` · `GCP`
+
+**Research**
+
+`Matplotlib` · `Plotly` · `LaTeX` · `Git`
+
+Mostly Python.
+
+Occasionally Docker gets involved.
+
+Nobody is happy.
+
+---
+
+## 🧭 Current Direction
+
+
+Machine Learning
+       │
+       ├──────────────► Scientific ML
+       │
+       ▼
+Quantitative Research
+       │
+       ▼
+Systematic Decision Making
+       │
+       ▼
+Robustness under uncertainty
+
+I'm increasingly interested in the intersection of:
+
+**ML × probability × optimization × sequential decision-making**
+
+with **systematic trading** as the current application where I'm pushing hardest.
+
+---
+
+## 🤝 Things I'd Happily Lose a Weekend To
+
+* Systematic trading research
+* ML for finance
+* Scientific ML
+* Numerical methods and optimization
+* Interesting datasets with inconvenient structure
+* Reproducible research infrastructure
+* Experiments where the obvious hypothesis turns out to be wrong
+
+If you have a good problem, a questionable hypothesis, or a dataset that looks innocent but clearly isn't:
+
+**I'm interested.**
+
+---
+
+## 🌐 Find Me
+
+[LinkedIn](https://www.linkedin.com/in/shashwat-srivastava-08394a225/) · [X](https://x.com/shashwat1322) · [Email](mailto:shashwat1322001@gmail.com)
+
+
