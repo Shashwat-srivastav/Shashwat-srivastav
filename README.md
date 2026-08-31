@@ -359,4 +359,6 @@ Mostly Python. Occasionally Docker gets involved. Nobody is happy.
 
 *Currently reading: market microstructure papers, satellite physics documentation, and my own backtest results with increasing suspicion.*
 
+
+<img src="https://algora.io/og/user/Shashwat-srivastav" />
 ---
