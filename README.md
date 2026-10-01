@@ -341,7 +341,7 @@ Mostly Python. Occasionally Docker gets involved. Nobody is happy.
 
 | Category | Result |
 |---|---|
-| HackVSIT 5.0 | 1st Runner-Up, 150+ teams (RouteCraft) |
+| HackVSIT 7.0 | 1st Runner-Up, 150+ teams (RouteCraft) |
 | MLH Hacky New Year | Most Innovative Hack (ColabWorks) |
 | Meta Hacker Cup 2025 | Global rank 4,042 / 20,000+ |
 | MLH Fellowship | Advanced to project-matching stage |
