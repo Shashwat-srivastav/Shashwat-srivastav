@@ -90,26 +90,6 @@ These invitations were **earned through results**, not applications. Avenir invi
 | Rank | **Top 10 / 1,171** |
 | Prize Pool | US$50,000 |
 
-**Strategy Lifecycle:**
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    STRATEGY LIFECYCLE                          │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  SIGNAL GENERATION        VALIDATION            EXECUTION      │
-│  ┌──────────┐            ┌──────────┐          ┌──────────┐   │
-│  │ Momentum │──┐         │ Walk-    │          │ Position │   │
-│  │ Mean Rev │  │         │ Forward  │          │ Sizing   │   │
-│  │ Volatility│ ├────────►│ OOS      │─────────►│ Costs    │   │
-│  │ Fundamental│ │         │ Regime   │          │ Risk     │   │
-│  │ Technical │──┘         │ Decay    │          │ Limits   │   │
-│  └──────────┘            └──────────┘          └──────────┘   │
-│                                                                 │
-│  Methodology: Walk-forward ✓ · OOS ✓ · Costs ✓ · Drawdown ✓   │
-└─────────────────────────────────────────────────────────────────┘
-```
-
 **Verification:** [HKU Business School](https://www.hkubs.hku.hk/media/school-news/web3-competition-brought-by-hku-business-school-and-avenirgroup/) · [Kaggle](https://www.kaggle.com/competitions/avenir-hku-web) · [Finalists](https://phemex.com/news/article/finalists-announced-for-avenirhkuweb30-quant-trading-challenge-38180)
 
 ---
@@ -171,34 +151,6 @@ Systematic alpha construction and factor research across multiple market regimes
 
 **Co-hosts:** ITU (UN agency) · Zhejiang Lab · CBAS · CAICT
 
-**System Architecture:**
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    S2WISH ARCHITECTURE                         │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  SENTINEL-2          DOMAIN              ML MODEL              │
-│  IMAGERY             CONSTRAINTS         (Physics-Informed)    │
-│  ┌─────────┐        ┌─────────┐         ┌─────────┐           │
-│  │ Bands   │        │ Water   │         │ Spectral│           │
-│  │ B2-B8A  │───────►│ Optics  │────────►│ Features│           │
-│  │ Angles  │        │ CDOM    │         │ + Domain│──┐        │
-│  │ Metadata│        │ Physics │         │ Priors  │  │        │
-│  └─────────┘        └─────────┘         └─────────┘  │        │
-│                                                        ▼        │
-│                                              ┌──────────────┐  │
-│                                              │  PREDICTIONS │  │
-│                                              │  Turbidity   │  │
-│                                              │  Suspended   │  │
-│                                              │  Sediment    │  │
-│                                              │  CDOM        │  │
-│                                              └──────────────┘  │
-│                                                                 │
-│  Methodology: Domain-informed ✓ · Baselines ✓ · Ablations ✓   │
-└─────────────────────────────────────────────────────────────────┘
-```
-
 **Research output:** Manuscript under review at **ITU Journal on Future and Evolving Technologies** (Manuscript ID ITUJ-2026-0045).
 
 **Verification:** [ITU Results](https://aiforgood.itu.int/from-orbit-to-impact-celebrating-the-winners-of-the-ai-and-space-computing-challenge/) · [Challenge Rules](https://aiforgood.itu.int/ai-and-space-computing-challenge/) · [Entrant Pool](https://www.ecns.cn/cns-wire/2026-07-10/detail-ihfhemcv3618490.shtml)
@@ -212,38 +164,6 @@ Systematic alpha construction and factor research across multiple market regimes
 **Accepted paper.** Gaur & Srivastava (second author).
 
 **Why this matters:** Standard image classification treats satellite data as arbitrary images. This fails when the physics of the sensor matters.
-
-**Model Architecture:**
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│              DUAL-ARCHITECTURE ENSEMBLE                        │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  SAR QUICKLOOK                                                  │
-│       │                                                         │
-│       ├──────────────┬──────────────────────┐                   │
-│       ▼              ▼                      ▼                   │
-│  ┌─────────┐   ┌───────────┐        ┌──────────────┐           │
-│  │ CNN     │   │ Physics   │        │ Transformer  │           │
-│  │ Branch  │   │ Features  │        │ Branch       │           │
-│  │         │   │ (Domain)  │        │              │           │
-│  └────┬────┘   └─────┬─────┘        └──────┬───────┘           │
-│       │              │                     │                   │
-│       └──────────────┼─────────────────────┘                   │
-│                      ▼                                         │
-│               ┌─────────────┐                                  │
-│               │  ENSEMBLE   │                                  │
-│               │  FUSION     │                                  │
-│               └──────┬──────┘                                  │
-│                      ▼                                         │
-│               ┌─────────────┐                                  │
-│               │ RFI / CLEAN │                                  │
-│               └─────────────┘                                  │
-│                                                                 │
-│  Ablations ✓ · Baselines ✓ · Physics constraints ✓            │
-└─────────────────────────────────────────────────────────────────┘
-```
 
 **Status:** Copyright transferred; to appear.
 
@@ -264,18 +184,6 @@ The goal isn't another:
 demo.
 
 The goal is to make the underlying **data and threat representation** useful for actual research.
-
----
-
-### 🧮 RealPDE — Scientific ML for Partial Differential Equations
-
-Exploring machine-learning approaches to scientific computing and PDE problems.
-
-```
-Can a learned approximation respect the structure of the problem it is trying to solve?
-```
-
-**Status:** Live competition.
 
 ---
 
